@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.header{
+    height: 12vmin;
+    background-color: #ffc300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant:small-caps;
+    text-align: center;
+    color: #001d3d;
+}
+.img1{
+    margin-top: 1rem;
+    height: 90px;
+    width: 150px;
+    background-image: url(AdobeStock_758697630_Preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.85rem;
+}
+.img2{
+    margin-top: 1rem;
+    height: 90px;
+    width: 150px;
+    background-image: url(AdobeStock_758697630_Preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 0.85rem;
+}
+.content{
+    height: 88vmin;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+#hey{
+    height: 30vmin;
+    width: 30vmin;
+    background-color:#b7e4c7;
+    border: 0.35rem solid #001d3d;
+    border-radius: 1rem;
+}
+.i1{
+    height: 5rem;
+    width: 5rem;
+    background-image: url(operator.png);
+    background-size: cover;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.i2{
+    height: 5rem;
+    width: 5rem;
+    background-image: url(email.png);
+    background-size: cover;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+a{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    color: #001d3d;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+#a1{
+    margin-left: 3.3rem;
+    margin-top: 2rem;
+}
+p{
+    margin-left: 4rem;
+    font-size: 0.55rem;
+    color: #001d3d;
+    text-decoration: none;
+   
+}
